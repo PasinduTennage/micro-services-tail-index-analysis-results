@@ -1,4 +1,4 @@
-Concurrency,Message Size,Heap Size,Garbage Collector,per10_latency (ms),per50_latency (ms),per90_latency (ms),per95_latency (ms),per98_latency (ms),per99_latency (ms),per99.5_latency (ms),per99.9_latency (ms),per99.95_latency (ms),per99.99_latency (ms)
+Concurrency,Message Size,Heap Size,Garbage Collector,per10_latency (s),per50_latency (s),per90_latency (s),per95_latency (s),per98_latency (s),per99_latency (s),per99.5_latency (s),per99.9_latency (s),per99.95_latency (s),per99.99_latency (s)
 50,50,100m,UseConcMarkSweepGC,0.0012694,0.0014657,0.0017393,0.0018022,0.0018859,0.0019926,0.0025046485,0.0050854273,0.00741516925,0.01877019857
 50,50,100m,UseG1GC,0.0021163,0.0022538,0.0026891,0.00275155,0.00283096,0.00292017,0.003392225,0.007960181,0.011353693,0.0234212758
 50,50,100m,UseParallelGC,0.001788,0.0019724,0.0022131,0.0022885,0.002380584,0.002483146,0.002854292,0.0056560894,0.0427899295,0.04444797336
